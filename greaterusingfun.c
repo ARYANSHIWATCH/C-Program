@@ -2,6 +2,7 @@
 void greaterNum(int,int);
 int main()
 {
+    // Here we are taking function of take something and return nothing type.
     int num1 , num2;
     printf("Enter two numbers.");
     scanf("%d%d",&num1,&num2);
