@@ -11,7 +11,6 @@ int main()
 }
 void displayAge(int a)//here the value from arguement came and is called parameter.
 {
-    
     a=23;
     printf("a=%d\n",a);
 }
