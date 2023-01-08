@@ -7,13 +7,14 @@ int main()
     printf("To find Permutation i.e. : nPr, Enter n and r.\n");
     scanf("%d %d",&n,&r);
     P=per(n,r);
-    printf("%d P %d = %d",n,r,P);
+    printf("Permutation for : P(%d,%d) = %d",n,r,P);
     return 0;
-}int per(int n,int r)
+}
+int per(int n,int r)
 {
     int factN=1,factN_R=1;
     int s=n-r;
-    for(int i=n; i>=1 ; i--)
+    for(int i=n ; i>=1 ; i--)
     {
         factN=factN*n;
         n=n-1;
