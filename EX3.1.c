@@ -4,7 +4,7 @@ void main()
 {
   int num;
   printf("Enter the number of terms you want to print of Fibonacci Series.\n");
-  scanf("%d",num);
+  scanf("%d",&num);
   fibo(num);
   
 }
